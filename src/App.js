@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
         <h1>Weather App</h1>
         <footer>
           <a
-            href="https://reactjs.org"
+            href="https://github.com/jleewest/weather-app-react-project"
             target="_blank"
             rel="noopener noreferrer"
           >
