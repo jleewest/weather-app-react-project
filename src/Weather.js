@@ -1,8 +1,9 @@
 import React from "react";
+import "./Weather.css";
 
 export default function Weather() {
   return (
-    <div className="Weather">
+    <div className="weather-app">
       <form className="search-from">
         <div className="row">
           <div className="col-6">
@@ -34,7 +35,7 @@ export default function Weather() {
               src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-night.png"
               alt="cloudy"
             />
-            <span>Current Temperature</span>
+            <span>60</span>
             <span className="temp-unit">°F</span>
           </div>
         </div>

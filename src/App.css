@@ -1,3 +1,22 @@
-.App {
+body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/081/987/original/graphicstock-sunny-background-blue-sky-with-white-clouds-and-sun_BKQeSECQs9e-3265374261.jpg?1684097219);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: 0px auto 200px;
+}
+
+footer {
+  color: #0b5ed7;
+  font-size: 13px;
+  margin: 13px auto 0px;
+  max-width: 400px;
   text-align: center;
+}
+
+.code-link {
+  font-weight: 800;
+  text-decoration: none;
 }

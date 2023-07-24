@@ -12,6 +12,7 @@ function App() {
             href="https://github.com/jleewest/weather-app-react-project"
             target="_blank"
             rel="noopener noreferrer"
+            className="code-link"
           >
             Open source code
           </a>{" "}
