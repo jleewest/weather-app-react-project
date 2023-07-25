@@ -1,0 +1,12 @@
+.weather-forecast {
+  font-size: 13px;
+  padding-top: 28px;
+  text-align: center;
+}
+.WeatherForecast-temperature-max {
+  font-size: 10px;
+}
+.WeatherForecast-temperature-min {
+  font-size: 10px;
+  opacity: 0.5;
+}
