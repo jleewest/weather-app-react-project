@@ -43,30 +43,32 @@ export default function Weather() {
           </div>
         </form>
         <div className="inner-container">
-          <h1>{weather.city}</h1>
-          <h2>Date Time</h2>
-          <div className="current-weather">
-            <div className="current-icon">
-              <img
-                src={`http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${weather.iconElement}.png`}
-                alt="weather icon"
-              />
-              <span>{weather.temperature}</span>
-              <span className="temp-unit">°F</span>
+          <div>
+            <h1>{weather.city}</h1>
+            <h2>Date Time</h2>
+            <div className="current-weather">
+              <div className="current-icon">
+                <img
+                  src={`http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${weather.iconElement}.png`}
+                  alt="weather icon"
+                />
+                <span>{weather.temperature}</span>
+                <span className="temp-unit">°F</span>
+              </div>
             </div>
-          </div>
-          <div className="row">
-            <div className="col-6"></div>
-            <div className="current-description col-6 text-capitalize">
-              {weather.description}
-            </div>
-            <div className="col-6"></div>
-            <div className="current-description col-6">
-              Wind: {weather.windSpeed} mph
-            </div>
-            <div className="col-6"></div>
-            <div className="current-description col-6">
-              Humidity: {weather.humidity}%
+            <div className="row">
+              <div className="col-6"></div>
+              <div className="current-description col-6 text-capitalize">
+                {weather.description}
+              </div>
+              <div className="col-6"></div>
+              <div className="current-description col-6">
+                Wind: {weather.windSpeed} mph
+              </div>
+              <div className="col-6"></div>
+              <div className="current-description col-6">
+                Humidity: {weather.humidity}%
+              </div>
             </div>
           </div>
           <div className="weather-forecast"></div>
