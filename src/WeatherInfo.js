@@ -1,10 +1,11 @@
 import React from "react";
+import FormattedDate from "./FormattedDate";
 
 export default function WeatherInfo(props) {
   return (
     <div className="weather-info">
       <h1>{props.data.city}</h1>
-      <h2>Date Time</h2>
+      <FormattedDate date={props.data.date} />
       <div className="current-weather">
         <div className="current-icon">
           <img
